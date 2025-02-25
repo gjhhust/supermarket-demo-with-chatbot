@@ -1,0 +1,6 @@
+Django
+gunicorn
+mysqlclient
+pytz
+PyYAML
+sqlparse

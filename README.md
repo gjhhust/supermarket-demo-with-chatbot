@@ -86,8 +86,7 @@ https://blog.csdn.net/ming12131342/article/details/140233867
 ```bash
 > conda create -n my_env python=3.10
 > conda activate my_env
-> pip install django
-> pip install mysqlclient
+> pip install -r requirements.txt
 ```
 
 2.2 进入vscode安装插件python，此时在vscode的文件内选择一个python文件，可以看到右下角有个python版本号，点击选择python环境，选择刚刚创建的my_env环境
