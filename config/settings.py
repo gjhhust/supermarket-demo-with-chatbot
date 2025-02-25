@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'app',
     'gunicorn',
+    'chatbot', # 新添加的 chatbot app
 ]
 
 MIDDLEWARE = [

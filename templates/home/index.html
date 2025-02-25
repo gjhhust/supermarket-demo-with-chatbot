@@ -41,7 +41,7 @@
 		<div class="container">
 		<div class="w3ls_logo_products_left1">
 				<ul class="phone_email">
-					<li><i class="fa fa-phone" aria-hidden="true"></i>客服热线 : +86 15512345678</li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>客服热线 : +86 15611112222</li>
 				</ul>
 			</div>
 			<div class="w3ls_logo_products_left">
@@ -291,9 +291,9 @@
 					<h3>Contact</h3>
 
 					<ul class="address">
-						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>广东财经大学华商学院 <span>中国 广东 增城 荔城街</span></li>
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>djanchew@qq.com</li>
-						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+86 15512345678</li>
+						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>地球村中国镇3号 <span>地球 中国</span></li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>xx_xx@mail.com</li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+86 15611112222</li>
 					</ul>
 				</div>
 
@@ -330,7 +330,7 @@
 		<div class="footer-copy">
 
 			<div class="container">
-				<p>Copyright &copy; 2019. djanchew All rights reserved.  More information <a href="https://github.com/djanchew" target="_blank" title="GitHub">GitHub</a> - <a href="https://blog.csdn.net/sinat_38153409" title="CSDN" target="_blank">CSDN</a></p>
+				<p>Copyright &copy; 2024. djanchew All rights reserved.  More information <a href="https://github.com/gjhhust" target="_blank" title="GitHub">GitHub</a> - <a href="https://blog.csdn.net/LanLanLan1927?type=blog" title="CSDN" target="_blank">CSDN</a></p>
 			</div>
 
 
@@ -381,6 +381,28 @@
 			
 		});
 </script>	
+
+<div id="chatbot-float-button">
+    <img src="{% static 'chatbot/images/chatbot-icon.png' %}" alt="客服">
+</div>
+
+<div id="chatbot-widget" style="display: none;">
+    <div id="chatbot-header">
+        客服机器人
+        <span id="chatbot-close-button">X</span>
+    </div>
+    <div id="chatbot-body">
+        <div id="chatbot-messages">
+            </div>
+        <div id="chatbot-input-area">
+            <input type="text" id="chatbot-input" placeholder="请输入您的问题...">
+            <button id="chatbot-send-button">发送</button>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="{% static 'chatbot/css/chatbot.css' %}">
+<script src="{% static 'chatbot/js/chatbot.js' %}"></script>
 <!-- //main slider-banner --> 
 </body>
 </html>

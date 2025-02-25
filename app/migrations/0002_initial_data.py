@@ -14,7 +14,7 @@ def init_manager(apps, args):
         pwd="123456",
         name="admin",
         gender=1,
-        phone="15512345678",
+        phone="15611112222",
     ).save()
 
 
@@ -23,7 +23,7 @@ def init_providers(apps, args):
     for i in range(3):
         p = provider()
         p.name = "供应商%d" % i
-        p.address = "(%s)广东省广州市增城区荔城街1号广东财经大学华商学院" % p.name
+        p.address = "(%s)地球村中国镇3号" % p.name
         p.phone = "1551234567%d" % i
         p.save()
 
@@ -39,9 +39,9 @@ def init_goods(apps, args):
 
     # 循环 /static/media/resources/goods/*
     current_path = os.path.dirname(os.path.abspath(__file__))
-    current_path = current_path.replace("app/migrations", "")
-    resource_img_dir = "%s/static/media/resources/goods" % current_path
-    upload_img_dir = "%s/static/media/goods_img" % current_path
+    current_path = current_path.replace("app\\migrations", "")
+    resource_img_dir = "%s\\static\\media\\resources\\goods" % current_path
+    upload_img_dir = "%s\\static\\media\\goods_img" % current_path
     files = [f for f in os.listdir(resource_img_dir) if os.path.isfile(os.path.join(resource_img_dir, f))]
     print(files)
 
@@ -75,8 +75,8 @@ def init_goods(apps, args):
         # g.id = total+1
         g.save()
 
-        image_path = "%s/%d_%d.png" % (upload_img_dir, category_id, g.id)
-        shutil.copyfile("%s/%s" % (resource_img_dir, f), image_path)
+        image_path = "%s\\%d_%d.png" % (upload_img_dir, category_id, g.id)
+        shutil.copyfile("%s\\%s" % (resource_img_dir, f), image_path)
 
         location_id = random.randrange(0, 8)
         record(

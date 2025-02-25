@@ -1,0 +1,557 @@
+卷 新加卷 的文件夹 PATH 列表
+卷序列号为 BCD0-15EE
+D:.
+│  .gitattributes
+│  .gitignore
+│  directory_tree.txt
+│  manage.py
+│  python
+│  README.md
+│  requirements
+│  __init__.py
+│  
+├─app
+│  │  admin.py
+│  │  apps.py
+│  │  models.py
+│  │  urls.py
+│  │  __init__.py
+│  │  
+│  ├─libs
+│  │  │  data_generator.py
+│  │  │  login_check.py
+│  │  │  page_generator.py
+│  │  │  
+│  │  └─__pycache__
+│  │          data_generator.cpython-38.pyc
+│  │          login_check.cpython-38.pyc
+│  │          page_generator.cpython-38.pyc
+│  │          
+│  ├─migrations
+│  │  │  0001_initial.py
+│  │  │  0002_initial_data.py
+│  │  │  __init__.py
+│  │  │  
+│  │  └─__pycache__
+│  │          0001_initial.cpython-38.pyc
+│  │          0002_initial_data.cpython-38.pyc
+│  │          __init__.cpython-38.pyc
+│  │          
+│  ├─templatetags
+│  │  │  my_tags.py
+│  │  │  __init__.py
+│  │  │  
+│  │  └─__pycache__
+│  │          my_tags.cpython-38.pyc
+│  │          __init__.cpython-38.pyc
+│  │          
+│  ├─test
+│  │      initial_data.py
+│  │      
+│  ├─view_sets
+│  │  │  front_site.py
+│  │  │  login_handler.py
+│  │  │  message_handler.py
+│  │  │  __init__.py
+│  │  │  
+│  │  ├─background
+│  │  │  │  accounts.py
+│  │  │  │  goods.py
+│  │  │  │  index.py
+│  │  │  │  providers.py
+│  │  │  │  purchase.py
+│  │  │  │  records.py
+│  │  │  │  sales.py
+│  │  │  │  __init__.py
+│  │  │  │  
+│  │  │  └─__pycache__
+│  │  │          accounts.cpython-37.pyc
+│  │  │          accounts.cpython-38.pyc
+│  │  │          goods.cpython-37.pyc
+│  │  │          goods.cpython-38.pyc
+│  │  │          index.cpython-37.pyc
+│  │  │          index.cpython-38.pyc
+│  │  │          providers.cpython-37.pyc
+│  │  │          providers.cpython-38.pyc
+│  │  │          purchase.cpython-37.pyc
+│  │  │          purchase.cpython-38.pyc
+│  │  │          records.cpython-37.pyc
+│  │  │          records.cpython-38.pyc
+│  │  │          sales.cpython-37.pyc
+│  │  │          sales.cpython-38.pyc
+│  │  │          __init__.cpython-37.pyc
+│  │  │          __init__.cpython-38.pyc
+│  │  │          
+│  │  └─__pycache__
+│  │          front_site.cpython-38.pyc
+│  │          login_handler.cpython-38.pyc
+│  │          message_handler.cpython-38.pyc
+│  │          __init__.cpython-38.pyc
+│  │          
+│  └─__pycache__
+│          admin.cpython-37.pyc
+│          admin.cpython-38.pyc
+│          models.cpython-37.pyc
+│          models.cpython-38.pyc
+│          urls.cpython-38.pyc
+│          __init__.cpython-37.pyc
+│          __init__.cpython-38.pyc
+│          
+├─config
+│  │  gunicorn.py
+│  │  settings.py
+│  │  urls.py
+│  │  wsgi.py
+│  │  __init__.py
+│  │  
+│  └─__pycache__
+│          settings.cpython-38.pyc
+│          urls.cpython-38.pyc
+│          wsgi.cpython-38.pyc
+│          __init__.cpython-38.pyc
+│          
+├─deploy
+│  │  nginx.conf
+│  │  
+│  └─supervisor
+│          django_demo.conf
+│          
+├─fixtures
+│      root_manager.yaml
+│      
+├─logs
+│      .gitignore
+│      
+├─static
+│  │  hs.ico
+│  │  
+│  ├─home
+│  │  ├─css
+│  │  │      bootstrap.css
+│  │  │      b_css.css
+│  │  │      font-awesome.css
+│  │  │      owl.carousel.css
+│  │  │      silder-style.css
+│  │  │      skdslider.css
+│  │  │      style.css
+│  │  │      
+│  │  ├─fonts
+│  │  │      fontawesome-webfont.eot
+│  │  │      fontawesome-webfont.ttf
+│  │  │      fontawesome-webfont.woff
+│  │  │      fontawesome-webfont.woff2
+│  │  │      FontAwesome.otf
+│  │  │      glyphicons-halflings-regular.eot
+│  │  │      glyphicons-halflings-regular.ttf
+│  │  │      glyphicons-halflings-regular.woff
+│  │  │      glyphicons-halflings-regular.woff2
+│  │  │      
+│  │  ├─images
+│  │  │      1.png
+│  │  │      10.png
+│  │  │      11.jpg
+│  │  │      111.jpg
+│  │  │      12.png
+│  │  │      13.png
+│  │  │      14.png
+│  │  │      15.png
+│  │  │      16.png
+│  │  │      17.png
+│  │  │      2.png
+│  │  │      22.jpg
+│  │  │      3.png
+│  │  │      4.png
+│  │  │      44.jpg
+│  │  │      5.png
+│  │  │      6.png
+│  │  │      7.png
+│  │  │      8.png
+│  │  │      9.png
+│  │  │      arrow.png
+│  │  │      b1.jpg
+│  │  │      b3.jpg
+│  │  │      blank.png
+│  │  │      bv1.png
+│  │  │      bv2.png
+│  │  │      bv3.png
+│  │  │      bv4.png
+│  │  │      bv5.png
+│  │  │      bv6.png
+│  │  │      bv7.png
+│  │  │      bv8.jpg
+│  │  │      bv8.png
+│  │  │      bv9.png
+│  │  │      card.png
+│  │  │      cheap.png
+│  │  │      check.png
+│  │  │      close_1.png
+│  │  │      gu1.png
+│  │  │      gu2.png
+│  │  │      gu3.png
+│  │  │      gu4.png
+│  │  │      gu5.png
+│  │  │      gu6.png
+│  │  │      gu7.png
+│  │  │      gu8.png
+│  │  │      gu9.png
+│  │  │      hh1.png
+│  │  │      hh2.png
+│  │  │      hh3.png
+│  │  │      hh4.png
+│  │  │      hh5.png
+│  │  │      hh6.png
+│  │  │      hh7.png
+│  │  │      hh8.png
+│  │  │      hh9.png
+│  │  │      hot.png
+│  │  │      icon1.png
+│  │  │      icon2.png
+│  │  │      offer.png
+│  │  │      p2.jpg
+│  │  │      p3.jpg
+│  │  │      p4.jpg
+│  │  │      pc1.png
+│  │  │      pc2.png
+│  │  │      pc3.png
+│  │  │      pc4.png
+│  │  │      pc5.png
+│  │  │      pc6.png
+│  │  │      pc7.png
+│  │  │      pc8.png
+│  │  │      pc9.jpg
+│  │  │      pf1.png
+│  │  │      pf2.png
+│  │  │      pf3.png
+│  │  │      pf4.png
+│  │  │      pf5.png
+│  │  │      pf6.png
+│  │  │      pf7.png
+│  │  │      pf8.png
+│  │  │      pf9.png
+│  │  │      si1.jpg
+│  │  │      star.png
+│  │  │      star1.png
+│  │  │      t1.jpg
+│  │  │      t2.jpg
+│  │  │      t3.jpg
+│  │  │      t4.jpg
+│  │  │      tick.png
+│  │  │      
+│  │  └─js
+│  │          bootstrap.min.js
+│  │          easing.js
+│  │          jquery-1.11.1.min.js
+│  │          jquery.wmuSlider.js
+│  │          minicart.min.js
+│  │          move-top.js
+│  │          responsiveslides.min.js
+│  │          skdslider.min.js
+│  │          
+│  ├─manage
+│  │  │  login_bg.jpg
+│  │  │  
+│  │  ├─css
+│  │  │      css.css
+│  │  │      jq22-demo.css
+│  │  │      styles.css
+│  │  │      tooltip.css
+│  │  │      
+│  │  ├─demo
+│  │  │  ├─css
+│  │  │  │      styles.css
+│  │  │  │      
+│  │  │  ├─imgs
+│  │  │  │      avatar-1.png
+│  │  │  │      hs_logo.png
+│  │  │  │      logo.png
+│  │  │  │      user.png
+│  │  │  │      
+│  │  │  ├─js
+│  │  │  │      carbon.js
+│  │  │  │      demo.js
+│  │  │  │      
+│  │  │  └─vendor
+│  │  │      ├─bootstrap
+│  │  │      │  └─js
+│  │  │      │          bootstrap.min.js
+│  │  │      │          bootstrap.min.js.map
+│  │  │      │          
+│  │  │      ├─chart.js
+│  │  │      │      chart.js
+│  │  │      │      chart.min.js
+│  │  │      │      
+│  │  │      ├─font-awesome
+│  │  │      │  ├─css
+│  │  │      │  │      fa-brands.css
+│  │  │      │  │      fa-brands.min.css
+│  │  │      │  │      fa-regular.css
+│  │  │      │  │      fa-regular.min.css
+│  │  │      │  │      fa-solid.css
+│  │  │      │  │      fa-solid.min.css
+│  │  │      │  │      fontawesome-all.css
+│  │  │      │  │      fontawesome-all.min.css
+│  │  │      │  │      fontawesome.css
+│  │  │      │  │      fontawesome.min.css
+│  │  │      │  │      
+│  │  │      │  └─webfonts
+│  │  │      │          fa-brands-400.eot
+│  │  │      │          fa-brands-400.svg
+│  │  │      │          fa-brands-400.ttf
+│  │  │      │          fa-brands-400.woff
+│  │  │      │          fa-brands-400.woff2
+│  │  │      │          fa-regular-400.eot
+│  │  │      │          fa-regular-400.svg
+│  │  │      │          fa-regular-400.ttf
+│  │  │      │          fa-regular-400.woff
+│  │  │      │          fa-regular-400.woff2
+│  │  │      │          fa-solid-900.eot
+│  │  │      │          fa-solid-900.svg
+│  │  │      │          fa-solid-900.ttf
+│  │  │      │          fa-solid-900.woff
+│  │  │      │          fa-solid-900.woff2
+│  │  │      │          
+│  │  │      ├─jquery
+│  │  │      │      jquery.js
+│  │  │      │      jquery.min.js
+│  │  │      │      
+│  │  │      ├─popper.js
+│  │  │      │      popper.min.js
+│  │  │      │      
+│  │  │      └─simple-line-icons
+│  │  │          ├─css
+│  │  │          │      simple-line-icons.css
+│  │  │          │      
+│  │  │          └─fonts
+│  │  │                  Simple-Line-Icons.eot
+│  │  │                  Simple-Line-Icons.svg
+│  │  │                  Simple-Line-Icons.ttf
+│  │  │                  Simple-Line-Icons.woff
+│  │  │                  Simple-Line-Icons.woff2
+│  │  │                  
+│  │  └─js
+│  │          b_demo.js
+│  │          index.js
+│  │          jquery.form.js
+│  │          jquery.min.js
+│  │          time.js
+│  │          tooltip-bundle.min.js
+│  │          
+│  └─media
+│      ├─goods_img
+│      │      .gitignore
+│      │      0_10.png
+│      │      0_15.png
+│      │      0_18.png
+│      │      0_2.png
+│      │      0_20.png
+│      │      0_22.png
+│      │      0_24.png
+│      │      0_30.png
+│      │      0_33.png
+│      │      0_37.png
+│      │      0_39.png
+│      │      0_40.png
+│      │      0_41.png
+│      │      0_42.png
+│      │      0_43.png
+│      │      0_44.png
+│      │      0_45.png
+│      │      0_46.png
+│      │      0_48.png
+│      │      0_52.png
+│      │      0_53.png
+│      │      0_55.png
+│      │      0_56.png
+│      │      0_57.png
+│      │      0_58.png
+│      │      0_59.png
+│      │      0_62.png
+│      │      0_64.png
+│      │      0_7.png
+│      │      1_1.png
+│      │      1_10.png
+│      │      1_12.png
+│      │      1_16.png
+│      │      1_25.png
+│      │      1_26.png
+│      │      1_27.png
+│      │      1_28.png
+│      │      1_29.png
+│      │      1_3.png
+│      │      1_30.png
+│      │      1_31.png
+│      │      1_33.png
+│      │      1_4.png
+│      │      1_44.png
+│      │      1_45.png
+│      │      1_49.png
+│      │      1_5.png
+│      │      1_50.png
+│      │      1_51.png
+│      │      1_54.png
+│      │      1_56.png
+│      │      1_57.png
+│      │      1_60.png
+│      │      1_65.png
+│      │      2_10.png
+│      │      2_11.png
+│      │      2_12.png
+│      │      2_14.png
+│      │      2_18.png
+│      │      2_22.png
+│      │      2_26.png
+│      │      2_32.png
+│      │      2_34.png
+│      │      2_35.png
+│      │      2_36.png
+│      │      2_39.png
+│      │      2_41.png
+│      │      2_42.png
+│      │      2_47.png
+│      │      2_54.png
+│      │      2_59.png
+│      │      2_6.png
+│      │      2_9.png
+│      │      3_1.png
+│      │      3_11.png
+│      │      3_13.png
+│      │      3_17.png
+│      │      3_19.png
+│      │      3_2.png
+│      │      3_21.png
+│      │      3_23.png
+│      │      3_24.png
+│      │      3_25.png
+│      │      3_28.png
+│      │      3_32.png
+│      │      3_36.png
+│      │      3_4.png
+│      │      3_46.png
+│      │      3_48.png
+│      │      3_49.png
+│      │      3_52.png
+│      │      3_55.png
+│      │      3_6.png
+│      │      3_61.png
+│      │      3_62.png
+│      │      4_15.png
+│      │      4_16.png
+│      │      4_17.png
+│      │      4_19.png
+│      │      4_21.png
+│      │      4_27.png
+│      │      4_29.png
+│      │      4_31.png
+│      │      4_34.png
+│      │      4_38.png
+│      │      4_40.png
+│      │      4_47.png
+│      │      4_5.png
+│      │      4_50.png
+│      │      4_51.png
+│      │      4_53.png
+│      │      4_58.png
+│      │      4_60.png
+│      │      4_61.png
+│      │      4_63.png
+│      │      4_65.png
+│      │      4_8.png
+│      │      4_9.png
+│      │      default.jpg
+│      │      
+│      └─resources
+│          └─goods
+│                  1.png
+│                  10.png
+│                  12.png
+│                  13.png
+│                  14.png
+│                  15.png
+│                  16.png
+│                  17.png
+│                  2.png
+│                  3.png
+│                  4.png
+│                  5.png
+│                  6.png
+│                  7.png
+│                  8.png
+│                  9.png
+│                  bv1.png
+│                  bv2.png
+│                  bv3.png
+│                  bv4.png
+│                  bv5.png
+│                  bv6.png
+│                  bv7.png
+│                  bv8.jpg
+│                  bv8.png
+│                  bv9.png
+│                  gu1.png
+│                  gu2.png
+│                  gu3.png
+│                  gu4.png
+│                  gu5.png
+│                  gu6.png
+│                  gu7.png
+│                  gu8.png
+│                  gu9.png
+│                  hh1.png
+│                  hh2.png
+│                  hh3.png
+│                  hh4.png
+│                  hh5.png
+│                  hh6.png
+│                  hh7.png
+│                  hh8.png
+│                  hh9.png
+│                  hot.png
+│                  p4.jpg
+│                  pc1.png
+│                  pc2.png
+│                  pc3.png
+│                  pc4.png
+│                  pc5.png
+│                  pc6.png
+│                  pc7.png
+│                  pc8.png
+│                  pc9.jpg
+│                  pf1.png
+│                  pf2.png
+│                  pf3.png
+│                  pf4.png
+│                  pf5.png
+│                  pf6.png
+│                  pf7.png
+│                  pf8.png
+│                  pf9.png
+│                  si1.jpg
+│                  
+├─templates
+│  │  404.html
+│  │  
+│  ├─home
+│  │      about.html
+│  │      all.html
+│  │      detail.html
+│  │      feedback.html
+│  │      index.html
+│  │      
+│  └─manage
+│      │  account_all.html
+│      │  account_more.html
+│      │  dashboard.html
+│      │  goods.html
+│      │  login.html
+│      │  messages.html
+│      │  profile.html
+│      │  provider.html
+│      │  purchase.html
+│      │  record.html
+│      │  sale.html
+│      │  send_note.html
+│      │  storage.html
+│      │  
+│      └─base
+│              base.html
+│              

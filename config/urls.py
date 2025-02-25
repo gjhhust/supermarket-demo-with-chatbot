@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('', include('home.urls')),
     path('', include('app.urls')),
+    path('chatbot/', include('chatbot.urls')), # 包含 chatbot app 的 URL
 ]

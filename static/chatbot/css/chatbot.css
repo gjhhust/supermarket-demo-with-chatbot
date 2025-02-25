@@ -1,0 +1,109 @@
+/* static/chatbot/css/chatbot.css */
+
+#chatbot-float-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #008CBA; /* 蓝色背景 */
+    color: white;
+    text-align: center;
+    line-height: 50px; /* 使文字垂直居中 */
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* 确保浮标在最上层 */
+}
+
+#chatbot-float-button img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px; /* 调整图标位置 */
+}
+
+#chatbot-widget {
+    position: fixed;
+    bottom: 80px; /* 浮标上方显示 */
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    display: none; /* 初始隐藏 */
+    flex-direction: column; /* 垂直布局 */
+    z-index: 1001; /* 比浮标更高一层 */
+}
+
+#chatbot-header {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+#chatbot-close-button {
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+}
+
+#chatbot-body {
+    padding: 10px;
+    flex-grow: 1; /* 填充剩余空间 */
+    overflow-y: auto; /* 允许垂直滚动 */
+    display: flex;
+    flex-direction: column; /* 消息垂直排列 */
+}
+
+#chatbot-messages {
+    flex-grow: 1; /* 消息区域填充主体空间 */
+    margin-bottom: 10px;
+}
+
+.chatbot-message {
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    border-radius: 15px;
+    clear: both; /* 清除浮动 */
+}
+
+.chatbot-message.user {
+    background-color: #e0f7fa; /* 用户消息背景色 */
+    float: right; /* 用户消息靠右显示 */
+    text-align: right;
+}
+
+.chatbot-message.bot {
+    background-color: #f0f0f0; /* 机器人消息背景色 */
+    float: left; /* 机器人消息靠左显示 */
+    text-align: left;
+}
+
+
+#chatbot-input-area {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    display: flex;
+}
+
+#chatbot-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-right: 8px;
+}
+
+#chatbot-send-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+}
